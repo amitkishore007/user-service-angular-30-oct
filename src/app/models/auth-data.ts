@@ -1,4 +1,5 @@
 export interface AuthData {
   token: string;
-  expiresIn: number;
+  expiresIn: string;
+  userId: string;
 }

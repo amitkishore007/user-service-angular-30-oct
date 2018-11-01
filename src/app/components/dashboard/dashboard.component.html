@@ -1,8 +1,6 @@
-<mat-accordion>
-  <mat-expansion-panel>
-    <mat-expansion-panel-header>
-      Test
-    </mat-expansion-panel-header>
-    <p>Hello world</p>
-  </mat-expansion-panel>
-</mat-accordion>
+<div class="example-button-row">
+  <a [routerLink]="['/posts','create']" mat-raised-button color="primary">Create a new post</a> |
+  <a href='#' mat-raised-button color="accent">Create a Application</a>
+</div>
+<hr />
+<app-post-list></app-post-list>
